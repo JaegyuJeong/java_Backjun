@@ -27,14 +27,10 @@ public class Main_1260_DFS와BFS {
 			node = sc.nextInt();
 			adj = sc.nextInt();
 			arr[node - 1][adj - 1] = 1;
+			arr[adj - 1][node - 1] = 1;
 		}
 
-		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N; j++) {
-				System.out.print(arr[i][j] + " ");
-			}
-			System.out.println();
-		}
+		
 		dfs(V - 1);
 		System.out.println();
 		Arrays.fill(visit, false);
