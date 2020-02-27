@@ -1,4 +1,4 @@
-package backjun.silver;
+package backjun.BFS;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
