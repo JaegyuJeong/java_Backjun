@@ -2,6 +2,7 @@ package backjun.BFS;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -11,7 +12,7 @@ public class Main_11403_경로찾기 {
 	    static boolean[] visited;
 	    //출력을 인접행렬 형식으로 보여줘야 하므로 새로운 배열을 만들어준다.
 	    static int[][] result;
-	public static void main(String[] args) {
+	public static void main(String[] args)throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
